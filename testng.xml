@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+ <listeners>
+  <listener class-name = "listeners.Listener">
+ </listener>
+ </listeners>
+ <test  name="testngTest" >
+ <classes>
+ <class name="testCases.LoginTest" />
+ </classes>
+ </test>
+ <test name="testngTest2">
+ <classes>
+ <class name="testCases.HomePageTest" />
+ </classes>
+ </test>
+</suite>

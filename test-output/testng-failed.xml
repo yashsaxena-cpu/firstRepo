@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [softwaretestingmaterial]">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="subtract6"/>
+          <include name="subtract4"/>
+          <include name="subtract5"/>
+          <include name="subtract3"/>
+          <include name="subtract1"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+  <test thread-count="5" name="testngTest2(failed)">
+    <classes>
+      <class name="testCases.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="subtract"/>
+        </methods>
+      </class> <!-- testCases.HomePageTest -->
+    </classes>
+  </test> <!-- testngTest2(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
