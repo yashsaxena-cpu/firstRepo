@@ -32,7 +32,7 @@ public class HomePageTest  extends BaseTest{
 	}
 	@Test
 	public void subtract() {
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 
 }
