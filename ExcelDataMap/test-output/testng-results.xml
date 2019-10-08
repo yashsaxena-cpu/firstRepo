@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="543" started-at="2019-10-08T08:56:57Z" finished-at="2019-10-08T08:56:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="543" started-at="2019-10-08T08:56:57Z" finished-at="2019-10-08T08:56:58Z">
+      <class name="TestCase">
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:TestCase@643b1d11]" name="test" duration-ms="10" started-at="2019-10-08T08:56:58Z" data-provider="data-provider" finished-at="2019-10-08T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{A=1001, B=Java for dummies, C=Tan Ah Teck, D=11.11}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:TestCase@643b1d11]" name="test" duration-ms="8" started-at="2019-10-08T08:56:58Z" data-provider="data-provider" finished-at="2019-10-08T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{A=1002, B=More Java for dummies, C=Tan Ah Teck, D=22.22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:TestCase@643b1d11]" name="test" duration-ms="2" started-at="2019-10-08T08:56:58Z" data-provider="data-provider" finished-at="2019-10-08T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{A=1003, B=More Java for more dummies, C=Mohammad Ali, D=33.33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:TestCase@643b1d11]" name="test" duration-ms="4" started-at="2019-10-08T08:56:58Z" data-provider="data-provider" finished-at="2019-10-08T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{A=1004, B=A Cup of Java, C=Kumar, D=44.44}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:TestCase@643b1d11]" name="test" duration-ms="8" started-at="2019-10-08T08:56:58Z" data-provider="data-provider" finished-at="2019-10-08T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{A=1005, B=A Teaspoon of Java, C=Kevin Jones, D=55.55}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
